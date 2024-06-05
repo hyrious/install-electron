@@ -1,0 +1,28 @@
+{
+  "name": "@hyrious/install-electron",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Install electron from local cache",
+  "author": "hyrious <hyrious@outlook.com>",
+  "license": "MIT",
+  "repository": "hyrious/install-electron",
+  "keywords": [
+    "electron",
+    "download",
+    "get",
+    "artifact"
+  ],
+  "bin": "cli.js",
+  "files": [
+    "*.js"
+  ],
+  "engines": {
+    "node": ">=20.1.0"
+  },
+  "dependencies": {
+    "@antfu/install-pkg": "^0.3.3",
+    "env-paths": "^3.0.0",
+    "sade": "^1.8.1",
+    "semver": "^7.6.2"
+  }
+}
